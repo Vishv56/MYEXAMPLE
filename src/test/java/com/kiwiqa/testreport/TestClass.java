@@ -139,7 +139,7 @@ public class TestClass extends CommonFiles
 		String atotalSubject =asubject1 +", "+ asubject2;
 		test.info("set sub");
 
-
+		reg.scrollToFormSubjectsTitle();
 		String aHobby = CommonFiles.getCellData(aExcelFilePath,sheetName,13,1);
 		reg.setHobby(aHobby);
 		test.info("set hobby");

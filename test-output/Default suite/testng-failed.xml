@@ -5,11 +5,10 @@
     <classes>
       <class name="com.kiwiqa.testreport.TestClass">
         <methods>
+          <include name="formReg"/>
           <include name="afterclass"/>
-          <include name="title"/>
           <include name="afterMethod"/>
           <include name="beforeTest"/>
-          <include name="loginVerify"/>
         </methods>
       </class> <!-- com.kiwiqa.testreport.TestClass -->
     </classes>

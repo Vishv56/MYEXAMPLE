@@ -23,6 +23,10 @@ public class PracticeFormPageMethod2
 	// Locators using @FindBy annotations
 	@FindBy(xpath="//h1[text()='Practice Form']")
 	WebElement formTitle;
+	
+	
+	@FindBy(xpath="//*[text()='Subjects']")
+	WebElement subjectTitle;
 
 	@FindBy(xpath = "//*[@id='firstName']")
 	WebElement webFirstName;
@@ -86,6 +90,12 @@ public class PracticeFormPageMethod2
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", formTitle);
 	}
+	public void scrollToFormSubjectsTitle()
+	{
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", subjectTitle);
+	}
+	
 	
 	public void openUrl(String webUrl) {
 		driver.get(webUrl);
