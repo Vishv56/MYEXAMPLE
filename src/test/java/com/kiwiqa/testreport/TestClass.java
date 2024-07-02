@@ -78,7 +78,7 @@ public class TestClass extends CommonFiles
 		test.info("Update Msg Is Verified");
 	}
 	
-	
+	@Test
 	public void formReg() throws IOException
 	{
 		test=extent.createTest(" FormReg");
