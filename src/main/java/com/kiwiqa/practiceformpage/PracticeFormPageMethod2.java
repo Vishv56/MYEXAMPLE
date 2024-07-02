@@ -153,7 +153,7 @@ public class PracticeFormPageMethod2
 	}
 
 	public void setPic(String picName) {
-		webUploadPic.sendKeys("C:\\Users\\Anmol\\Downloads\\" + picName);
+		webUploadPic.sendKeys("C:\\Users\\KQ045\\Downloads\\" + picName);
 	}
 
 	public void setCurrentAddress(String currentAddressValue) {
